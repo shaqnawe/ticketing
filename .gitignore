@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+# Uncomment the line below if you want to ignore lock files:
+# package-lock.json
+# yarn.lock
+
+# Build outputs
+dist/
+build/
+*.js
+*.js.map
+!*.config.js
+*.d.ts
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Kubernetes secrets (be careful with these!)
+infra/k8s/*secret*.yaml
+infra/k8s/*-secret.yaml
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
