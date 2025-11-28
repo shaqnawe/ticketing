@@ -31,7 +31,7 @@ router.post('/api/users/signin',
 
         // Store it on sesion object
         req.session = { jwt: userJwt };
-        console.log(userJwt);
+        // console.log(userJwt);
 
         res.status(200).send(existingUser);
     });

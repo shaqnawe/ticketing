@@ -27,7 +27,7 @@ router.post('/api/users/signup', [
 
     // Store it on sesion object
     req.session = { jwt: userJwt };
-    console.log(userJwt);
+    // console.log(userJwt);
 
     res.status(201).send(user);
 });
