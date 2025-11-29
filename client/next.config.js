@@ -3,7 +3,7 @@ module.exports = {
     config.watchOptions.poll = 300;
     return config;
   },
-  experimental: {
+  devIndicators: {
     allowedDevOrigins: ['ticketing.dev'],
   },
 };
